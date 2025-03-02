@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <Reference Include="Remnants">
+	    <HintPath>..\..\ModReader\Remnants\Remnants.dll</HintPath>
+	  </Reference>
+	  <Reference Include="StructureHelper">
+	    <HintPath>..\..\ModReader\StructureHelper\StructureHelper.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>
